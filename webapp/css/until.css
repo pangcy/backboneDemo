@@ -1,0 +1,226 @@
+.ca-input .ui-form-explain{
+    display: none!important;
+}
+.ca-input .ui-form-other{
+    display: none!important;
+}
+.ca-btn .ui-form-explain{
+    display: none!important;
+}
+.fn-width-100 {
+    width: 100%!important;
+}
+.fn-width-50 {
+    width: 50%!important;
+}
+.fn-width-33 {
+    width: 33.333%!important;
+}
+.fn-width-30 {
+    width: 30%!important;
+}
+.fn-width-40 {
+    width: 40%!important;
+}
+.textarea-ac textarea{
+    width:50%!important;
+    height:60px!important;
+}
+.backstep{
+	width: 650px;
+}
+.fieldset-activity{
+    border: 2px solid #0A0A0A!important;
+    padding-top: 8px!important;
+}
+.backstep i,span{
+    cursor: pointer;
+}
+.backform .ui-form-item {
+    padding:0 5px 0px 170px!important;
+}
+.fieldset-block{
+    border:#1D2935 solid!important;
+    border-width:1px 0px 0px 0px!important;
+
+}
+.fieldset-block legend {
+    margin-left: 20px;
+    font-size:14px;
+    display: block!important;
+}
+.pageCheckbox input{
+    margin:0 5px 0 10px;
+}
+.pageInput{
+    width:35px;
+}
+.tab-conf-left,.tab-conf-right{
+    overflow:auto;
+    height:500px;
+    border:1px solid rgb(74, 172, 197);
+}
+.tab-conf-left{width:22%;}
+.tab-conf-right{width:78%;}
+
+.ui-form-search .ui-label{
+    font-size: 12px;
+    width: 115px;
+    margin-left: -115px;
+}
+.ui-form-search .ui-input{
+    width: 100%;
+    color: #595959;
+    vertical-align: middle;
+    *vertical-align: -5px;
+    position: relative;
+    z-index: 2;
+    min-width: 138px;
+    height: 25px;
+}
+.ui-form-search select{
+    margin-top: auto!important;
+    padding: 4px 9px;
+}
+.ui-form-search .ui-form-item {
+    padding: 0px 5px 6px 110px;
+    width: 25%;
+    float: left;
+}
+.ui-form-search .search-field .textbox{
+   position:absolute;
+   top:0;
+   left:1px;
+   height:100px;
+   border-bottom:1px solid #D7D7D7;
+   border-left:1px solid #D7D7D7;
+   border-right:1px solid #D7D7D7;
+   overflow:hidden;
+   z-index:55;
+   display:none;
+   background:#fff;
+}
+
+.ui-form-search .search-field .textbox .text{
+   height:20px;
+}
+
+.ui-form-search .search-field .textbox .select{
+   background:blue;
+}
+
+.ui-form-search .ui-form-other,.ui-form-search .ui-form-explain{
+    display: none;
+}
+.ui-form-search .ui-form-item-date-time-both{width: 50%;}
+.ui-date-time-both .ui-input{width: 47%;}
+.ui-form-search textarea {
+    margin: 0px;
+    max-width:700px;
+}
+html{
+    background: #F9F9F9!important;
+}
+.ui-form-create{
+    text-align: center;
+}
+.ui-form-create fieldset{
+    display: inline-block;
+    background-color: #fff;
+    border: 1px solid #AEC7E5!important;
+    padding: 20px 5px 20px 5px;
+    min-width:1126px;
+    max-width:1160px;
+}
+.ui-form-create .ui-form-item{
+    padding: 0 5px 0px 125px;
+    text-align: left;
+    float:left;
+    min-height:48px;
+}
+
+.ui-form-create .ui-form-auditprocess{
+    padding: 9px 5px 0px 382px;
+    text-align: left;
+    min-height: 48px;
+}
+
+.ui-form-create .ui-form-auditlable{
+    float:left;
+    text-align: right;
+    padding-top: 14px;
+    width:232px;
+    font-size:14px;
+}
+.ui-form-create .ui-form-auditbutton{
+    padding-top:20px;
+    float: left;
+    text-align: center;
+    width: 100%;
+}
+
+.ui-form-create .ui-form-item-two{
+    padding: 0 5px 0px 294px;
+    text-align: left;
+    float:left;
+}
+.ui-form-create .ui-ganged-select{
+    min-width: 700px;
+}
+.ui-form-create .ui-input{
+    width: 232px;
+}
+.ui-form-create textarea{
+    margin: 0px;
+    width: 594px!important;
+    height: 125px;
+}
+.ui-form-create .ui-form-item-button{
+	width:100%;
+	text-align: center;
+	padding: 0px;
+	
+}
+.ui-form-create .ui-date-time-both .ui-input{
+    width: 30%;
+}
+.backform .ui-switchable-content{
+    border: #AEC7E5;
+    border-left: 1px solid;
+    border-bottom: 1px solid;
+    border-right: 1px solid;
+}
+/**
+ *鎻愮ず淇℃伅楂樺害涓�牱
+ **/
+    .ui-form-create .ui-form-explain{
+        height: 18px;
+    }
+    .ui-button-item .ui-form-item {
+        padding: 0;
+    }
+    .ui-button-item {
+        overflow: hidden;
+        padding: 20px 138px 20px 0;
+    }
+.backgrid td{
+	white-space: pre;
+}
+table.checkinfo {
+    width: 99.9%;
+    border: 3px solid #000000;
+}
+table.checkinfo tr{
+    height: 40px;
+}
+table.checkinfo td,table.checkinfo th {
+    border: 1px solid #000000;
+    text-align: center;
+}
+.fn-display-ib {
+    width:33%;
+    float:left;
+}
+.ui-form-create .ui-form-item-date-time-both{
+	width:724px;
+}

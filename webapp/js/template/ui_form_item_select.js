@@ -1,0 +1,2 @@
+/*TMODJS:{"version":1,"md5":"f09cc5de8f3b156674022e21b0a2b4ef"}*/
+var template=require("./template");module.exports=template("ui_form_item_select",function(a){"use strict";var b=this,c=(b.$helpers,b.$escape),d=a.label,e=a.name,f=a.resv,g=a.explain,h="";return h+='<label for="" class="ui-label"> ',h+=c(d),h+='\uff1a </label> <select name="',h+=c(e),h+='" class="ui-input"> </select> <span class="ui-form-other"> <a href="#">',f&&(h+=c(f)),h+='</a> </span> <p class="ui-form-explain"> ',g&&(h+=c(g)),h+=" </p>",new String(h)});

@@ -1,0 +1,31 @@
+{
+    "name": "alice-base",
+    "version": "1.1.0",
+    "description": "全局 reset 样式",
+    "keywords": [],
+    "homepage": "http://aliceui.org/base",
+    "author": "",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/aliceui/base"
+    },
+    "bugs": {
+        "url": "https://github.com/aliceui/base/issues"
+    },
+    "licenses": "MIT",
+    "spm": {
+        "main": "src/base.css",
+        "dependencies": {
+        },
+        "devDependencies": {
+            "expect.js": "0.3.1"
+        }
+    },
+    "devDependencies": {
+        "spm": "3"
+    },
+    "scripts": {
+        "test": "spm test",
+        "build": "spm build"
+    }
+}

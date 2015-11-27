@@ -1,0 +1,2 @@
+/*TMODJS:{"version":3,"md5":"ec831ef30e5fa606a7720cc1a6d66d61"}*/
+var template=require("./template");module.exports=template("right",'<div id="tab"> <ul class="ui-switchable-nav">  </ul> <div class="ui-switchable-content">  </div> </div> <p class="copyright">Copyright ?2015 XXXX\u4fe1\u606f\u6280\u672f\u6709\u9650\u516c\u53f8 All Rights Reserved. </p> ');

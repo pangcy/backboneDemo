@@ -1,0 +1,26 @@
+<!--<div class="left" id="left">-->
+<!-- 代码 开始 -->
+<div class="subNavBox">
+  {{each childrenList}}
+  <div class="subNav"> 
+	<span><img src="{{$value.img}}" />{{$value.moduleName}}</span>
+  </div>
+  <ul class="navContent ">
+    {{each $value.childrenList}}
+    <li>
+	  <a {{if $value.childrenList&&$value.childrenList.length
+          >0}}class="subNav2"{{else}}href="{{$value._links.self.href}}"{{/if}}>
+		 {{$value.moduleName}}
+	  </a>
+      <ul class="navContent2">
+        {{each $value.childrenList}}
+		<li><a href="{{$value._links.self.href}}">{{$value.moduleName}}</a></li>
+        {{/each}}
+	  </ul> 
+	</li>
+    {{/each}}
+   </ul>
+  {{/each}} 
+</div>
+<!-- 代码 结束 -->
+<!--</div>-->

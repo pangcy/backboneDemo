@@ -1,0 +1,85 @@
+.ui-button-lblue, .ui-button-mblue, .ui-button-blue {
+	color: #fff;
+	border: 1px solid #d66500;
+	background-color: #f57403;
+}
+
+.ui-button-lblue:hover, .ui-button-mblue:hover,
+	.ui-button-blue:hover {
+	background-color: #1F53B5;
+}
+
+.ui-button-sblue:hover {
+	background-color: #1F53B5;
+}
+
+a.ui-button-lblue, a.ui-button-mblue, a.ui-button-blue, a.ui-button-lblue:hover,
+	a.ui-button-mblue:hover, a.ui-button-blue:hover, a.ui-button-lblue:active,
+	a.ui-button-mblue:active, a.ui-button-blue:active {
+	color: #fff;
+}
+
+.ui-button-lblue {
+	height: 32px;
+}
+
+.ui-button-mblue {
+	min-width: 90px;
+	height: 29px;
+	line-height: 29px;
+	margin-left: 2px;
+	padding: 0 0 0 0;
+	display: inline-block;
+	background: url(../img/btn2.png) no-repeat right -117px;
+	text-align: center;
+	font-size: 12px;
+	border: none;
+	font-weight: normal;
+	border-left: 1px solid #0E2043;
+	border-radius: 3px;
+	margin-right: 5px;
+}
+
+.ui-button-blue {
+	padding: 0 12px;
+	height: 24px;
+	font-size: 12px;
+}
+
+a.ui-button-lblue {
+	line-height: 30px;
+	height: 30px;
+}
+
+a.ui-button-mblue {
+	line-height: 26px;
+	height: 26px;
+}
+
+a.ui-button-blue {
+	line-height: 22px;
+	height: 22px;
+}
+
+.buttons {
+	padding: 0; /*margin:20px 35px;*/
+	display: inline-block;
+}
+
+a.ui-button-blue {
+	min-width: 80px;
+	height: 25px;
+	line-height: 25px;
+	padding: 0 5px;
+	color: #fff;
+	display: inline-block;
+	background: url(../img/btn2.png) no-repeat right -121px;
+	text-align: center;
+	font-size: 12px;
+	border: none;
+	font-weight: normal;
+	border-left: 1px solid #242D33;
+	box-shadow: 1px 0px 1px #57749B inset;
+	border-radius: 3px;
+	overflow: hidden;
+}

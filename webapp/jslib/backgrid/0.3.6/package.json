@@ -1,0 +1,33 @@
+{
+  "name": "backgrid",
+  "version": "0.3.6",
+  "description": "Backbone grid",
+  "keywords": [],
+  "homepage": "",
+  "author": "undefined <iceman_1212@163.com>",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "bugs": {
+    "url": ""
+  },
+  "licenses": "MIT",
+  "spm": {
+    "main": "index.js",
+    "dependencies": {
+      "backbone": "~1.1.2",
+      "underscore": "~1.6.0"
+    },
+    "devDependencies": {
+      "expect.js": "0.3.1"
+    }
+  },
+  "devDependencies": {
+    "spm": "3"
+  },
+  "scripts": {
+    "test": "spm test",
+    "build": "spm build"
+  }
+}

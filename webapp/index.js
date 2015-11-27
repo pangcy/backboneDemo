@@ -1,0 +1,12 @@
+require('alice-base');
+require('alice-iconfont');
+require('alice-form');
+require('alice-button');
+var $ = require('jquery');
+var Backbone = require('backbone');
+Backbone.$ = $;
+Backbone.history.start();
+var contentView = require('./js/views/contentView');
+var headView = require('./js/views/headView');
+contentView = new contentView();
+$('body').append(new headView().el).append(contentView.el);

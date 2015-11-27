@@ -1,0 +1,26 @@
+.ui-label {
+    float: left;
+    width: 125px;
+    margin-left: -130px;
+    padding-top: 5px;
+    text-align: right;
+    font-size: 12px;
+}
+
+.ui-label-one {
+    width: 125px;
+    padding-top: 5px;
+    text-align: right;
+    font-size: 12px;
+}
+
+.ui-form-required {
+    color: #FF0000;
+    font-family: SimSun;
+    font-size: 12px;
+}
+
+input.ui-checkbox {
+    vertical-align: baseline;
+}
+

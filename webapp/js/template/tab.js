@@ -1,0 +1,2 @@
+/*TMODJS:{"version":2,"md5":"c3fdd911642356963f4781c5d3dce1b8"}*/
+var template=require("./template");module.exports=template("tab",'<div style="padding:0px 20px;height:32px;"> <div class="icon" style="float:left;margin:7px 0 0 -12px;"><i class="iconfont iconLeft" >&#xF037;</i> </div> <div class="icon" style="float:right;margin:7px -12px 0 0;"><i class="iconfont iconRight">&#xF038;</i> </div> <div style="height:32px;position:relative;overflow:hidden;"> <ul class="ui-switchable-nav"> </ul> </div> </div> <div class="ui-switchable-content"> </div> ');

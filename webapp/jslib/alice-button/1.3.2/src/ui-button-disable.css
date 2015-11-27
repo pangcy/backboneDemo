@@ -1,0 +1,48 @@
+.ui-button-lshdydisable,
+.ui-button-mshdydisable,
+.ui-button-sshdydisable {
+    color:#999;    
+    border: none;
+    background: #cacccd;
+    cursor: default;
+}
+
+a.ui-button-lshdydisable,
+a.ui-button-mshdydisable,
+a.ui-button-sshdydisable,
+.ui-button-lshdydisable:active,
+.ui-button-mshdydisable:active,
+.ui-button-sshdydisable:active,
+.ui-button-lshdydisable:hover,
+.ui-button-mshdydisable:hover,
+.ui-button-sshdydisable:hover {
+    color:#999; 
+    border: none;
+    background: #cacccd;
+}
+
+.ui-button-lshdydisable {
+    height:32px;
+}
+
+.ui-button-mshdydisable {
+    height:28px;
+}
+
+.ui-button-sshdydisable {
+height: 25px;padding: 0 12px;font-size: 12px;line-height: 25px;min-width: 70px;
+}
+
+.ui-button-lshdydisable,
+.ui-button-mshdydisable,
+.ui-button-sshdydisable {
+    cursor: default!important;
+}
+
+.ui-button-lshdydisable:active,
+.ui-button-mshdydisable:active,
+.ui-button-sshdydisable:active {
+    position: static;
+    top: 0;
+    box-shadow: none;
+}

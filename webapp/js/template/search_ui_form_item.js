@@ -1,0 +1,2 @@
+/*TMODJS:{"version":1,"md5":"21e7137fa8b71df53d2e37de185ca3a1"}*/
+var template=require("./template");module.exports=template("search_ui_form_item",function(a){"use strict";var b=this,c=(b.$helpers,b.$escape),d=a.label,e=a.name,f=a.value,g="";return g+='<label for="" class="ui-label"> ',g+=c(d),g+='\uff1a </label> <input name="',g+=c(e),g+='" class="ui-input" type="text" value="',g+=c(f),g+='"> ',new String(g)});

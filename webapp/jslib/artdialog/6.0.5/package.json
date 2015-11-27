@@ -1,0 +1,32 @@
+{
+  "name": "artdialog",
+  "version": "6.0.5",
+  "description": "artDialog——经典、优雅的网页对话框控件。",
+  "keywords": [],
+  "homepage": "",
+  "author": "undefined <iceman_1212@163.com>",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "bugs": {
+    "url": ""
+  },
+  "licenses": "MIT",
+  "spm": {
+    "main": "index.js",
+    "dependencies": {
+      "jquery": "~1.10.1"
+    },
+    "devDependencies": {
+      "expect.js": "0.3.1"
+    }
+  },
+  "devDependencies": {
+    "spm": "3"
+  },
+  "scripts": {
+    "test": "spm test",
+    "build": "spm build"
+  }
+}
